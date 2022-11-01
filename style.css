@@ -1,1 +1,29 @@
+body{
+    background-color: black;
+}
+
+.imagem__teste{
+width: 200px;
+height: 200px;
+}
+.container__static{
+
+}
+.container__absolute{
+
+
+}
+.container__relative{
+
+
+}
+.container__fixed{
+
+
+}
+.container__sticky{
+
+    
+}
+
 
