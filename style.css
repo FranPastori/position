@@ -10,6 +10,7 @@ height: 200px;
 .container__static{
 display: flex;
 justify-content: center;
+flex-direction: column;
 }
 .container__absolute{
     display: flex;
