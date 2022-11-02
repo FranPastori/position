@@ -13,21 +13,24 @@ justify-content: center;
 }
 .container__absolute{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 
 }
 .container__relative{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 
 }
 .container__fixed{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 
 }
 .container__sticky{
-
+    flex-direction: column;
     display: flex;
     justify-content: center;  
 }
