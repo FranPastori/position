@@ -3,7 +3,7 @@ body{
     color: rgb(205, 224, 241);
     font-size: 2em;
 }
-button{
+span{
     font-weight: 400;
     text-shadow: 2px 2px 2px gray;
 }
