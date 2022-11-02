@@ -1,8 +1,12 @@
 body{
     background-color: black;
     color: rgb(205, 224, 241);
+    font-size: 2em;
 }
-
+button{
+    font-weight: 400;
+    text-shadow: 2px 2px 2px gray;
+}
 .imagem__teste{
 width: 200px;
 height: 200px;
