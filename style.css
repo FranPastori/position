@@ -32,8 +32,8 @@ margin: 5px;
     border: 2px solid rgb(235, 65, 167);
     border-radius: 30px;
     position: absolute;
-    top : 0vw
-    left:0vw
+    top : 0vw;
+    left:0vw;
 }
 .container__relative{
     display: flex;
@@ -42,8 +42,8 @@ margin: 5px;
     border: 2px solid rgb(235, 65, 167);
     border-radius: 30px;
     position: relative;
-    top : 0vw
-    left:0vw
+    top : 0vw;
+    left:0vw;
 }
 .container__fixed{
     display: flex;
