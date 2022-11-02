@@ -9,31 +9,29 @@ height: 200px;
 }
 .container__static{
 display: flex;
-justify-content: center;
+align-items: center;
 flex-direction: column;
 }
 .container__absolute{
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
 
 }
 .container__relative{
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
-
 }
 .container__fixed{
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
-
 }
 .container__sticky{
-    flex-direction: column;
     display: flex;
-    justify-content: center;  
+    align-items: center;
+    flex-direction: column; 
 }
 
 
