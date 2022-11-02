@@ -6,6 +6,11 @@ body{
 span{
     font-weight: 400;
     text-shadow: 2px 2px 2px rgb(235, 65, 167);
+
+}
+li a {
+
+    display: inline;
 }
 .envelope{
     border: 2px solid rgb(235, 65, 167);
