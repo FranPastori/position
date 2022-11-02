@@ -20,11 +20,10 @@ height: 200px;
 margin: 5px;
 }
 .container__static{
-display: flex;
-align-items: center;
-flex-direction: column;
-border: 2px solid rgb(235, 65, 167);
-    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
 .container__absolute{
     display: flex;
@@ -32,7 +31,9 @@ border: 2px solid rgb(235, 65, 167);
     flex-direction: column;
     border: 2px solid rgb(235, 65, 167);
     border-radius: 30px;
-
+    position: absolute;
+    top : 0vw
+    left:0vw
 }
 .container__relative{
     display: flex;
@@ -40,6 +41,9 @@ border: 2px solid rgb(235, 65, 167);
     flex-direction: column;
     border: 2px solid rgb(235, 65, 167);
     border-radius: 30px;
+    position: relative;
+    top : 0vw
+    left:0vw
 }
 .container__fixed{
     display: flex;
@@ -47,6 +51,9 @@ border: 2px solid rgb(235, 65, 167);
     flex-direction: column;
     border: 2px solid rgb(235, 65, 167);
     border-radius: 30px;
+    position: fixed;
+    top : 0vw;
+   right: 0vw;
 }
 .container__sticky{
     display: flex;
@@ -54,6 +61,9 @@ border: 2px solid rgb(235, 65, 167);
     flex-direction: column; 
     border: 2px solid rgb(235, 65, 167);
     border-radius: 30px;
+    position: fixed;
+    top : 0vw;
+    left: 0vw;
 }
 
 
