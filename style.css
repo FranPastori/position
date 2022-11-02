@@ -8,23 +8,28 @@ width: 200px;
 height: 200px;
 }
 .container__static{
-
+display: flex;
+justify-content: center;
 }
 .container__absolute{
-
+    display: flex;
+    justify-content: center;
 
 }
 .container__relative{
-
+    display: flex;
+    justify-content: center;
 
 }
 .container__fixed{
-
+    display: flex;
+    justify-content: center;
 
 }
 .container__sticky{
 
-    
+    display: flex;
+    justify-content: center;  
 }
 
 
