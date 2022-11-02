@@ -10,6 +10,9 @@ span{
 .envelope{
     border: 2px solid rgb(235, 65, 167);
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .imagem__teste{
 width: 200px;
