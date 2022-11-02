@@ -17,32 +17,43 @@ span{
 .imagem__teste{
 width: 200px;
 height: 200px;
+margin: 5px;
 }
 .container__static{
 display: flex;
 align-items: center;
 flex-direction: column;
+border: 2px solid rgb(235, 65, 167);
+    border-radius: 30px;
 }
 .container__absolute{
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: 2px solid rgb(235, 65, 167);
+    border-radius: 30px;
 
 }
 .container__relative{
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: 2px solid rgb(235, 65, 167);
+    border-radius: 30px;
 }
 .container__fixed{
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: 2px solid rgb(235, 65, 167);
+    border-radius: 30px;
 }
 .container__sticky{
     display: flex;
     align-items: center;
     flex-direction: column; 
+    border: 2px solid rgb(235, 65, 167);
+    border-radius: 30px;
 }
 
 
