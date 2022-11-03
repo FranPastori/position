@@ -2,15 +2,36 @@ body{
     background-color: black;
     color: rgb(205, 224, 241);
     font-size: 2em;
+    height: 300vh;
+}
+
+header{
+    background-color: rgb(125, 131, 129);
 }
 span{
     font-weight: 400;
     text-shadow: 2px 2px 2px rgb(235, 65, 167);
 
 }
-li a {
-
+nav li  {
+    font-size: 18px;
+    margin-left: 130px;
+    color: palevioletred;
+    text-decoration: none;
     display: inline;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: palevioletred;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+
 }
 .envelope{
     border: 2px solid rgb(235, 65, 167);
@@ -18,6 +39,7 @@ li a {
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 .imagem__teste{
 width: 200px;
@@ -37,8 +59,8 @@ margin: 5px;
     border: 2px solid rgb(235, 65, 167);
     border-radius: 30px;
     position: absolute;
-    top : 0vw;
-    left:0vw;
+    top : 40vw;
+    left:40vw;
 }
 .container__relative{
     display: flex;
@@ -57,8 +79,8 @@ margin: 5px;
     border: 2px solid rgb(235, 65, 167);
     border-radius: 30px;
     position: fixed;
-    top : 0vw;
-   right: 0vw;
+    top : 20vw;
+   right: 20vw;
 }
 .container__sticky{
     display: flex;
@@ -66,9 +88,9 @@ margin: 5px;
     flex-direction: column; 
     border: 2px solid rgb(235, 65, 167);
     border-radius: 30px;
-    position: fixed;
-    top : 0vw;
-    left: 0vw;
+    position: sticky;
+    top : 20vw;
+    left: 20vw;
 }
 
 
